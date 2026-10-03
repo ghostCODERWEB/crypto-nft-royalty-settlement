@@ -1,0 +1,21 @@
+{
+  "gross": 1000,
+  "market_total": 25,
+  "royalty_totals": {
+    "artist": 100
+  },
+  "sales": [
+    {
+      "gross": 1000,
+      "id": "s",
+      "market_fee": 25,
+      "royalties": {
+        "artist": 100
+      },
+      "seller_net": 875
+    }
+  ],
+  "seller_totals": {
+    "alice": 875
+  }
+}

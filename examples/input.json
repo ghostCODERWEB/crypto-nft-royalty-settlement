@@ -1,0 +1,16 @@
+{
+  "market_bps": 250,
+  "royalties": [
+    {
+      "recipient": "artist",
+      "bps": 1000
+    }
+  ],
+  "sales": [
+    {
+      "id": "s",
+      "seller": "alice",
+      "price": 1000
+    }
+  ]
+}

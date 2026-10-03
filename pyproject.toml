@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-nft-royalty-settlement"
+version = "0.1.0"
+description = "Split sale proceeds among seller, marketplace and royalty recipients with exact integer conservation."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-nft-royalty-settlement = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]
